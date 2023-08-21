@@ -1,9 +1,8 @@
 These steps were taken to create this repro:
 1. Install expo as per their docs
 2. Install the package as per docs
-3. Run `npm start -- --reset-cache`
-4. Add `components/Header.tsx` that uses the package
-5. Use component in `app/(tabs)/index`
+3. Add `components/Header.tsx` that uses the package
+4. Use component in `app/(tabs)/index`
 
 Everything else is left as default.
 
